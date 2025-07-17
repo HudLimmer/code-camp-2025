@@ -32,6 +32,12 @@ main {
   width: 50%;
   height: 50%;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.code-camp-logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .title {
@@ -48,6 +54,14 @@ main {
   color: #0a1f3b;
   text-decoration: none;
   border-radius: 0.5rem;
+  transition: .3s;
+}
+
+.button:hover {
+  background-color: #3fc1cc;
+  color: #0a1f3b;
+  transform: scale(1.05);
+  transition: .3s;
 }
 
 .button-text {
