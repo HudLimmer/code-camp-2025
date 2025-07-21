@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Galada';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+        url('./assets/fonts/Galada-Regular.ttf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: darkblue;
+    /* background-image: url(./assets/backgrounds/background-blue-stars.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-family: Galada;
+    font-size: 96px;
+    text-align: center;
+}
