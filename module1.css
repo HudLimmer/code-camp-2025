@@ -11,9 +11,9 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: darkblue;
-    /* background-image: url(./assets/backgrounds/background-blue-stars.png);
+    background-image: url(./assets/backgrounds/background-blue-stars.png);
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 
 h1 {
