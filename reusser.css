@@ -55,6 +55,7 @@ main {
   text-decoration: none;
   border-radius: 0.5rem;
   transition: .3s;
+  pointer-events: none;
 }
 
 .button:hover {
