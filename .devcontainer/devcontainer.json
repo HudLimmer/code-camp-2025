@@ -4,10 +4,10 @@
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm install",
+  "updateContentCommand": "",
   "postCreateCommand": "",
   "postAttachCommand": {
-    "server": "npm start"
+    "server": "npm install && npm start"
   },
   "customizations": {
     "codespaces": {
